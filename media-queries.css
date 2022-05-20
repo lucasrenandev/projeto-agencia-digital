@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1118px) {
+    #navbar {
+        position: relative;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .nav-logo {
+        margin: 0;
+        text-align: center;
+    }
+
+    main {
+        padding-top: 50px;
+    }
+
+    .main-text-headline {
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+    
+    .main-text-headline p {
+        text-align: center;
+    }
+
+    .main-image-headline {
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .section-card-services {
+        width: 100%;
+    }
+
+    .image-whats-fixed {
+        display: none;
+    }
+}
