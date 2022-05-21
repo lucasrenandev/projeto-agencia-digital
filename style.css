@@ -11,7 +11,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-/* HEADER --> NAVBAR */
+/* ====== HEADER --> navbar ====== */
 
 #navbar {
     height: 100px;
@@ -74,7 +74,7 @@ nav ul li a:hover {
     background-color: #ff2978;
 }
 
-/* MAIN */
+/* ====== MAIN ====== */
 
 main {
     display: flex;
@@ -132,7 +132,7 @@ main {
     max-width: 90%;
 }
 
-/* SECTION */  
+/* ====== SECTION ====== */  
 
 section {
     display: inline-block;
@@ -169,7 +169,7 @@ section h2 {
 }
 
 .section-card-services:hover {
-    padding: 45px;
+    padding: 40px;
     background-color: #ff2978;
     color: #fff;
 }
@@ -190,7 +190,7 @@ section h2 {
     display: block;
 }
 
-/* FOOTER */
+/* ====== FOOTER ====== */
 
 footer {
     margin-top: 100px;
@@ -221,10 +221,12 @@ b {
     font-weight: 400;
 }
 
-.image-whats-fixed img {
+.image-whats-fixed {
     position: fixed;
     bottom: 5px;
     right: 5px;
+}
+
+.image-whats-fixed img {
     width: 100px;
-    cursor: pointer;
 }
