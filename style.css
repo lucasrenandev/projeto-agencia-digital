@@ -168,14 +168,14 @@ section h2 {
     margin: 10px 0;
 }
 
+.section-hidden-text {
+    display: none;
+}
+
 .section-card-services:hover {
     padding: 40px;
     background-color: #ff2978;
     color: #fff;
-}
-
-.section-hidden-text {
-    display: none;
 }
 
 .section-card-services:hover img {
